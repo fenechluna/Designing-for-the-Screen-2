@@ -21,13 +21,13 @@ img {
 
   position: relative;
   top: 100px;      
-  left: -400px;    /* moves LEFT */
+  left: -400px;    
 }
 
 .menu-bar {
     width: 3%;
     position: fixed;
-    top: 20px;      /* distance from the top */
+    top: 20px;      
     left: 20px; 
 }
 .Home-nav {
@@ -38,24 +38,24 @@ img {
 }
 .Works-nav {
     position: fixed;
-    top: 32px;     /* same height as Home */
-    left: 220px;   /* pushed to the right */
+    top: 32px;     
+    left: 220px;   
     cursor: pointer;
 }
 .Tickets-nav {
     position: fixed;
-    top: 32px;     /* same height as Home */
-    left: 340px;   /* pushed to the right */
+    top: 32px;     
+    left: 340px;   
     cursor: pointer;
 }
 .Contact-nav {
     position: fixed;
-    top: 32px;     /* same height as Home */
-    left: 460px;   /* pushed to the right */
+    top: 32px;     
+    left: 460px;   
     cursor: pointer;
 }
 .logo-graphic-1 {
-    position: fixed; /* or absolute inside a header */
+    position: fixed; 
     width: 5%;
     top: 20px;
     right: 20px;
@@ -63,14 +63,14 @@ img {
 
 .tickets-graphic {
     position: relative;
-    right: -350px;   /* distance from right edge */
+    right: -350px;   
     top: -200px;
     transform: translateY(-50%);
         cursor: pointer;
 }
 .dates {
     position: relative;
-    right: -650px;   /* distance from right edge */
+    right: -650px;   
     top: -875px;
     transform: translateY(-50%);
 }
@@ -87,7 +87,7 @@ img {
 
 .map {
     position: absolute;
-    top: 1400px;   /* move map DOWN */
+    top: 1400px;   
     left: 55%;
     width: 100vw;
         transform: translateX(-50%);
@@ -97,15 +97,15 @@ img {
 
 .bins-side {
     position: fixed;
-    top: 75px;     /* LOWER it (increase this number) */
+    top: 75px;     
     left: 1px;
 }
 .prices {
     position: fixed;
     top: 100px;
     left: 190px;
-    width: 950px;   /* change this to resize */
-    height: auto;   /* keeps proportions */
+    width: 950px;   
+    height: auto;   
 }
 
 .contact-page {
@@ -129,8 +129,8 @@ height:auto
 }
 .works-layer {
     position: relative;
-    width: 100vw;        /* full screen width */
-    margin: 0;           /* no centering margins */
+    width: 100vw;        
+    margin: 0;           
 }
 .works-bg {
     width: 100%;
@@ -144,7 +144,7 @@ height:auto
     left: 50%;
     width: 85%;
     transform: translate(-50%, -50%);
-    z-index: 10;              /* FORCE on top */
+    z-index: 10;              
 
 }
 .ad-here {
@@ -153,7 +153,7 @@ height:auto
     left: 50%;
     width: 85%;
     transform: translate(-50%, -50%);
-    z-index: 10;              /* FORCE on top */
+    z-index: 10;              
 
 }
 .paint {
@@ -162,7 +162,7 @@ height:auto
     left: 49%;
     width: 90%;
     transform: translate(-50%, -50%);
-    z-index: 10;              /* FORCE on top */
+    z-index: 10;              
 
 }
 .ether-net {
@@ -171,7 +171,7 @@ height:auto
     left: 52%;
     width: 90%;
     transform: translate(-50%, -50%);
-    z-index: 10;              /* FORCE on top */
+    z-index: 10;              
 
 }
 .bryce {
@@ -180,7 +180,7 @@ height:auto
     left: 50%;
     width: 90%;
     transform: translate(-50%, -50%);
-    z-index: 10;              /* FORCE on top */
+    z-index: 10;              
 
 }
 
@@ -190,8 +190,8 @@ height:auto
     left: 52%;
     width: 90%;
     transform: translate(-50%, -50%);
-    z-index: 10;              /* FORCE on top */
-
+    z-index: 10;              
+  
 }
 
 .sudokill {
@@ -200,7 +200,7 @@ height:auto
     left: 50%;
     width: 90%;
     transform: translate(-50%, -50%);
-    z-index: 10;              /* FORCE on top */
+    z-index: 10;              
 
 }
 
@@ -210,7 +210,7 @@ height:auto
     left: 50%;
     width: 85%;
     transform: translate(-50%, -50%);
-    z-index: 10;              /* FORCE on top */
+    z-index: 10;              
 
 }
 
