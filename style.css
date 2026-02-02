@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  background-color: #0000C5;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.home-title {
+  width: 30%;
+  max-width: 900px;
+  min-width: 280px;
+  margin: 0 auto;
+
+  position: relative;
+  top: 100px;      
+  left: -400px;    /* moves LEFT */
+}
+
+.menu-bar {
+    width: 3%;
+    position: fixed;
+    top: 20px;      /* distance from the top */
+    left: 20px; 
+}
+.Home-nav {
+    position: fixed;
+    top: 32px;
+    left: 100px;
+    cursor: pointer;
+}
+.Works-nav {
+    position: fixed;
+    top: 32px;     /* same height as Home */
+    left: 220px;   /* pushed to the right */
+    cursor: pointer;
+}
+.Tickets-nav {
+    position: fixed;
+    top: 32px;     /* same height as Home */
+    left: 340px;   /* pushed to the right */
+    cursor: pointer;
+}
+.Contact-nav {
+    position: fixed;
+    top: 32px;     /* same height as Home */
+    left: 460px;   /* pushed to the right */
+    cursor: pointer;
+}
+.logo-graphic-1 {
+    position: fixed; /* or absolute inside a header */
+    width: 5%;
+    top: 20px;
+    right: 20px;
+}
+
+.tickets-graphic {
+    position: relative;
+    right: -350px;   /* distance from right edge */
+    top: -200px;
+    transform: translateY(-50%);
+        cursor: pointer;
+}
+.dates {
+    position: relative;
+    right: -650px;   /* distance from right edge */
+    top: -875px;
+    transform: translateY(-50%);
+}
+.bins-map {
+    position: relative;
+    width: 100vw;
+}
+
+.text-bins {
+    margin-top: -1100px;
+    width: 100vw;
+    display: block;
+}
+
+.map {
+    position: absolute;
+    top: 1400px;   /* move map DOWN */
+    left: 55%;
+    width: 100vw;
+        transform: translateX(-50%);
+    width: 65%;     /* change this */
+    height: auto;
+}
+
+.bins-side {
+    position: fixed;
+    top: 75px;     /* LOWER it (increase this number) */
+    left: 1px;
+}
+.prices {
+    position: fixed;
+    top: 100px;
+    left: 190px;
+    width: 950px;   /* change this to resize */
+    height: auto;   /* keeps proportions */
+}
+
+.contact-page {
+    background: white;
+}
+
+.message {
+position:fixed;
+    top: 220px;
+    left: 250px;
+width:900px;
+height:auto
+}
+
+.doc {
+position:fixed;
+    top:670px;
+    left: 1100px;
+width:300px;
+height:auto
+}
+.works-layer {
+    position: relative;
+    width: 100vw;        /* full screen width */
+    margin: 0;           /* no centering margins */
+}
+.works-bg {
+    width: 100%;
+    height:auto;
+    display: block;
+}
+
+.recycle-bin {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    width: 85%;
+    transform: translate(-50%, -50%);
+    z-index: 10;              /* FORCE on top */
+
+}
+.ad-here {
+    position: absolute;
+    top: 22.5%;
+    left: 50%;
+    width: 85%;
+    transform: translate(-50%, -50%);
+    z-index: 10;              /* FORCE on top */
+
+}
+.paint {
+    position: absolute;
+    top: 35%;
+    left: 49%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 10;              /* FORCE on top */
+
+}
+.ether-net {
+    position: absolute;
+    top: 46%;
+    left: 52%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 10;              /* FORCE on top */
+
+}
+.bryce {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 10;              /* FORCE on top */
+
+}
+
+.graveyard {
+    position: absolute;
+    top: 70%;
+    left: 52%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 10;              /* FORCE on top */
+
+}
+
+.sudokill {
+    position: absolute;
+    top: 81.5%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 10;              /* FORCE on top */
+
+}
+
+.monitor {
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    width: 85%;
+    transform: translate(-50%, -50%);
+    z-index: 10;              /* FORCE on top */
+
+}
+
+.Home-nav,
+.Works-nav,
+.Tickets-nav,
+.Contact-nav,
+.logo-graphic-1,
+.menu-bar {
+    z-index: 1000;
+    pointer-events: auto;
+}
